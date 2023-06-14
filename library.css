@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar
+{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 6px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-color: brown;
+}
+.search-container
+{
+    margin-top: 7px;
+}
+.search-container button {
+    float: right;
+    padding: 5px 20px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    color: brown;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.lib-name
+{
+    padding-top: 8px;
+    align-items: center;
+    color: brown;
+    padding-left: 20%;
+    font-family: cursive;
+}
+.nav-bar ul
+{
+    display: flex;  
+    list-style-type: none;
+}
+.nav-bar li
+{
+    background-color:antiquewhite;
+    padding: 20px 14px 20px 14px;
+
+}
+.nav-bar a
+{
+    color: brown;
+    padding: 20px 14px 20px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-family: cursive;
+    transition: font-size 2s;
+}
+.nav-bar a:hover
+{
+    color: rgb(255, 136, 0);
+}
+.comics-row
+{
+    padding: 1% 0%;
+    display: flex;
+    background-color: whitesmoke;
+}
+.comics-col
+{
+    
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+}
+.buy
+{
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: antiquewhite;
+}
+.buy:hover
+{
+    color: antiquewhite;
+    background-color: brown;
+}
+.book-img
+{
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+.row
+{
+    display: flex;
+}
+.col
+{
+    flex: 50%;
+    background-color: brown;
+    text-align: center;
+}
+h2
+{
+    padding-top: 20%;
+    font-weight: 100;
+    font-size: 100px;
+    color: rgb(255, 136, 0);
+    font-family: 'Brush Script MT', cursive;
+}
+.main-img
+{
+    width: 50%;
+    margin: 0% 25%;
+    padding: 5% 0%;
+    border-radius: 50%;
+}
+h3
+{
+    text-align: center;
+    padding: 2% 0%;
+    font-family: cursive;
+    background-color: whitesmoke;
+}
+h4{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------Decoration-------------------*/
+.design{
+    height: 700px;
+    width: 100%;
+    background-image: url(design.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*-------------------Testimonial------------------*/
+
+.testimony
+{
+    text-align: center;
+    padding: 2% 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.test-row
+{
+    display: flex;
+}
+.test-col
+{
+    background-color: whitesmoke;
+    flex: 30%;
+    padding: 3% 5%;
+    
+}
+.test-img
+{
+    text-align: center;
+}
+.test-img img
+{
+    padding: 5% 0%;
+    border-radius: 50%;
+    width: 25%;
+}
+
+
+/*--------------------Footer--------------------*/
+
+.foot-row
+{
+    display: flex;
+}
+.foot-col
+{
+    flex: 30%;
+    padding: 2% 0%;
+    color: antiquewhite;
+    background-color: brown;
+    text-align: center;
+}
+
+.foot-col img
+{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.foot-col .logo_img{
+    width: 10%;
+    height: 50%;
+    border-radius: 100%;
+} 
+.foot-col .links
+{
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+}
+
+footer {
+    background-color:antiquewhite;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .foot {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  p {
+    color: brown;
+    font-size: 21px;
+    font-family: cursive;
+  }
+  
+
+
+
+
